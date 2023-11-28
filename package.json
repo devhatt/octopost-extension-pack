@@ -1,0 +1,37 @@
+{
+  "name": "octopost-extension-pack",
+  "publisher": "DevHat",
+  "icon": "./fileicons/image/octopost.png",
+  "keywords": [
+    "ExtensionPack",
+    "DevHat", 
+    "Hatter",
+    "Octopost",
+    "OpenSource",
+    "Community",
+    "Alecell",
+    "Nicoletti"
+  ],
+  "displayName": "OctopostExtensionPack",
+  "description": "Pacote de extensões da DevHat recomendadas para o Octopost",
+  "repository": {
+    "url": "https://github.com/hatcoders/OctoPost-Extension-Pack"
+  },
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-typescript-next",
+    "andys8.jest-snippets",
+    "syler.sass-indented",
+    "stylelint.vscode-stylelint"
+  ]
+}
